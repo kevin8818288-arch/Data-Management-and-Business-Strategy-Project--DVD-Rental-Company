@@ -49,3 +49,8 @@ Developed Tableau dashboards to translate analysis into business insights:
 - Demonstrated how data-driven decisions can improve revenue performance (~15% uplift potential)
 
 **Project Link:** Coming soon
+
+### Turn into business logic/business insights (can but into somewhere show the outcome)
+- Pricing Strategy: High-demand but low-revenue movies should be considered for price increases to improve revenue without significantly reducing demand.
+- Inventory should be reallocated toward high-demand genres to prevent stockouts and maximize rental opportunities.
+- Movie with high ROI should be prioritized for additional inventory invenstments, as they generate higher returns per unit cost.
