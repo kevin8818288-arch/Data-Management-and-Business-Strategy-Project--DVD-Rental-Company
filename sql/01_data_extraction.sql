@@ -1,1 +1,8 @@
-
+- table used in movie performance data warehouse
+  - film f
+  - inventory inv
+  - category c
+  - payment p
+  - language l
+  - film category fc
+  - rental r
