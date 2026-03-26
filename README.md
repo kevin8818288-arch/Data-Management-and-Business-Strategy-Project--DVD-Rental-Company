@@ -20,9 +20,9 @@ Designed an end-to-end analytics workflow to simulate how a DVD rental company c
 
 ## Business Questions
 The company lacked a structured data model to understand:
-- which movie drive the most revenue?
-- How demand varies across genres?
-- Whether pricing and inventory decisions are aligned with profitability?
+1. Which films and categories drive the most revenue?
+2. Which films have high demand but weak monetization / inefficient inventory?
+3. What pricing and inventory actions could improve revenue?
 
 The goal was to develop a data-driven strategy to improve revenue and operational efficiency.
 
