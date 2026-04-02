@@ -1,9 +1,9 @@
-The company lacked a structured data model to understand:
+-- The company lacked a structured data model to understand:
 
-Which films and categories drive the most revenue?
-Which films have high demand but weak monetization / inefficient inventory?
-What pricing and inventory actions could improve revenue?
-The goal was to develop a data-driven strategy to improve revenue and operational efficiency.
+-- Which films and categories drive the most revenue?
+-- Which films have high demand but weak monetization / inefficient inventory?
+-- What pricing and inventory actions could improve revenue?
+-- The goal was to develop a data-driven strategy to improve revenue and operational efficiency.
 
 - Revenue Mart
 - to see 
@@ -55,7 +55,7 @@ SELECT
     revenue_per_inventory
 FROM movie_performance_dw;
 -------------------------------------------------------------
-- ROI Efficiency Mart (這個可以思考一下要不要放)
+- ROI Efficiency Mart 
   - to see
     - Which film have the highest investment efficiency
 CREATE VIEW roi_efficiency_mart AS
