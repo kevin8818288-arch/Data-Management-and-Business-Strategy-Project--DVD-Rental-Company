@@ -39,7 +39,15 @@ The goal was to develop a data-driven strategy to improve revenue and operationa
 - Outcome
   <img width="1325" height="362" alt="image" src="https://github.com/user-attachments/assets/dbb61ad1-8728-48ee-9d42-f093c1739b86" />
 
+📊 Demand Distribution Insight
 
+Due to duplicated rental counts across films, multiple films share the same demand rank (using DENSE_RANK()).
+
+This indicates that:
+
+Customer demand is clustered rather than evenly distributed
+Many films perform similarly in terms of rental frequency
+Ranking-based filtering may include larger groups than expected
 
 ## Solution Approach
 
