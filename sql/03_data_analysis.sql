@@ -49,7 +49,46 @@
 	LIMIT 50;
     -- The table shows that the key revenue driver was not derived from higher inventory, since each films has similar stock. Therefore, the demand is the key driven that affects revenue.
 -- ------------------------------------------------------------------------------------------------------ --
-	2. Demand vs Monetization
+    -- Demand vs Monetization --
+    -- 1. Top Demand Films
+    SELECT
+		film_id,
+		title,
+		category,
+		rental_count,
+		demand_rank
+	FROM demand_monetization_mart
+	ORDER BY demand_rank
+	LIMIT 20;
+    -- 2. Low Monetization Films (Low revenue per rental)
+	SELECT
+	    film_id,
+	    title,
+	    category,
+	    rental_count,
+	    total_revenue,
+	    revenue_per_rental
+	FROM demand_monetization_mart
+	WHERE rental_count > 20
+	ORDER BY revenue_per_rental ASC
+	LIMIT 20;
+    -- consider increase the price for films have more than 20 rental count
+    -- 3. High Demand but Low Revenue Ranking
+	SELECT
+		film_id,
+		title,
+		category,
+		rental_count,
+		total_revenue,
+		demand_rank,
+		revenue_rank,
+		(revenue_rank - demand_rank) AS monetization_gap
+	FROM demand_monetization_mart
+	WHERE demand_rank <= 10
+	  AND revenue_rank > demand_rank
+	ORDER BY monetization_gap DESC
+	LIMIT 20;
+
 - Demand vs Monetization
 1. Top rental count~= Top 10/20 most famous movie
 2. which film has low revenue per rental
