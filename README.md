@@ -1,11 +1,8 @@
 # Data Management & Business Strategy Project - DVD Rental Company
 ## Conversation with ChatGPT: https://chatgpt.com/g/g-p-678ff9c3e3f081919e3368d81418235a-job-searching/c/69c5a856-35dc-8327-b7c1-3ddfd7c5c956
-## Checklist
-- fill out Readme
-- organize my SQL file into three categories and upload
-- Visualize my dashboard by myself (considering using Power BI as my main tool)
+
 ## Missions
-1. draw the diagram to explain data architecture
+1._ draw the diagram to explain data architecture_
 2. code organization: data warehouse (semantic layer)
 3. code organization: data mart (separate into different tables to do data anlaysis)
 4. revise the READ.ME
