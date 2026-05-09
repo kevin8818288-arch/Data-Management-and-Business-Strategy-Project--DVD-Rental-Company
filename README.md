@@ -67,7 +67,7 @@ This indicates that:
 sql/
 ├── 01_data_warehouse.sql      # Builds the centralized film-level analytical layer
 ├── 02_data_marts.sql          # Creates business-focused views for revenue, demand, inventory, and ROI analysis
-└── 03_analysis_queries.sql    # Contains SQL queries used for EDA and business analysis
+└── 03_data_analysis.sql    # Contains SQL queries used for EDA and business analysis
 
 dashboard/
 └── dvd_rental_powerbi_dashboard.pbix
@@ -76,6 +76,7 @@ images/
 ├── schema_overview.png
 ├── data_architecture.png
 └── dashboard_preview.png
+
 ## Solution Approach
 
 ### 1. Data Warehouse Design (Semantic Layer)
